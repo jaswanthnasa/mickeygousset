@@ -12,4 +12,16 @@ jobs:
       - name: run a script
         run: | 
            echo " I am running in dev env"
+           
+           
+  qa:
+    runs-on: ubuntu-latest
+    environment: qa
+    needs: dev
+    steps:
+      - uses: actions/checkout@v2
+      - name: run a script
+        run: |
+           echo " I am running in qa"
+    
           
