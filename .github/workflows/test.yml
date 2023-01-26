@@ -3,11 +3,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  dev
+  dev:
     runs-on: ubuntu-latest
     environment: dev
     
-    steps:
+    steps:  
       - uses: actions/checkout@v2
       - name: run a script
         run: | 
