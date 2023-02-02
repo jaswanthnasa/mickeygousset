@@ -1,4 +1,4 @@
-name: Update YouTube Videos
+name: test workflow
 on:
   workflow_dispatch:
 
