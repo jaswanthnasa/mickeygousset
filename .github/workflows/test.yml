@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: run a script
         run: | 
-           echo " I am running in dev env"
+           echo " I am running in dev env "
            
            
   qa:
